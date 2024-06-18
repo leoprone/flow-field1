@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Prueba_imagen_letra';
+    src: url("../assets/Prueba_imagen_letra-Regular.ttf");
+}
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .canvas1{
+    border: 10px solid rgb(86, 222, 246);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+} */
+ 
+
+h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+}
+
+.canvas-flow-field{
+    background-color: black; 
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ 
+ 
+}
+
+
+.canvas{
+    background-color: rgba(222, 17, 17, 0.247); 
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+ }

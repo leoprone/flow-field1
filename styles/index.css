@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* @font-face {
+    font-family: 'Prueba_imagen_letra';
+    src: url("../assets/Prueba_imagen_letra-Regular.ttf");
+} */
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.messi-container{
+    position: relative;
+    margin: 150px auto;
+    width: 300px;
+    height: 700px;
+     border: 1px #ffffff solid;
+    overflow: hidden;
+}
+
+.canvas-name{
+border: 1px solid red;
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  z-index: 20;
+  background-color: rgba(70, 70, 70, 0);
+
+}
+
+.canvas{
+ border: red 1px solid;
+    position: absolute;
+   top: 100%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  z-index: 20;
+}
+
+
+@font-face {
+    font-family: "Messi";
+    src: url("../assets/Messi-Regular.ttf");
+}
+.canvas-img{
+   
+     position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -4;
+ }

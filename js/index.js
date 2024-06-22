@@ -93,7 +93,7 @@ img.onload = function() {
              context.lineTo(this.history[i].x, this.history[i].y);
      }
          context.strokeStyle=this.color;
-         context.lineWidth=1.5;
+         context.lineWidth=1;
          context.stroke(); 
  }
 
@@ -200,7 +200,7 @@ img.onload = function() {
          this.width=this.canvasFlowField.width;
          this.height=this.canvasFlowField.height;
          this.particles=[];
-         this.numberOfParticles=1000;
+         this.numberOfParticles=800;
          this.cellSize=1;
          this.rows;
          this.cols;

@@ -203,7 +203,7 @@ img.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVMAAADeCAYAAACAEuPGAAAAA
          this.width=this.canvasFlowField.width;
          this.height=this.canvasFlowField.height;
          this.particles=[];
-         this.numberOfParticles=1000;
+         this.numberOfParticles=600;
          this.cellSize=1;
          this.rows;
          this.cols;

@@ -246,7 +246,7 @@ const img= new Image(); */
          this.width=this.canvasFlowField.width;
          this.height=this.canvasFlowField.height;
          this.particles=[];
-         this.numberOfParticles=1200;
+         this.numberOfParticles=1700;
          this.cellSize=1;
          this.rows;
          this.cols;
